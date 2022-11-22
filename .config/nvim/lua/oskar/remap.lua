@@ -36,7 +36,8 @@ vnoremap("<leader>d", "\"_d")
 
 
 -- Telescope bindings
-nnoremap("<leader>ff", "<cmd>Telescope find_files<CR>")
+nnoremap("<leader>ff", "<cmd>Telescope find_files hidden=tru <CR>")
+nnoremap("<leader>fh", "<cmd>Telescope find_files hidden=tru hidden=true<CR>")
 nnoremap("<leader>fb", "<cmd>Telescope buffers<CR>")
 nnoremap("<leader>fs", "<cmd>Telescope document_symbols<CR>")
 nnoremap("<leader>fS", "<cmd>Telescope workspace_symbols<CR>")
