@@ -126,7 +126,7 @@ M.get_line_col = function(self)
 end
 
 M.get_encoding = function()
-  local encoding = '[%{&fileencoding?&fileencoding:&encoding} \\%{&fileformat}]'
+  local encoding = '[%{&fileencoding?&fileencoding:&encoding}\\%{&fileformat}]'
   return encoding
 end
 
