@@ -14,6 +14,7 @@ vim.opt.incsearch = true
 vim.opt.hlsearch = false
 
 vim.opt.swapfile = false
+vim.opt.backup = false
 
 vim.opt.mouse={}
 vim.opt.scrolloff = 7
