@@ -37,6 +37,7 @@ return require("packer").startup(function(use)
     use "hrsh7th/cmp-path"
     use "L3MON4D3/LuaSnip"
     use "saadparwaiz1/cmp_luasnip"
+
     -- lsp stuff
     use "neovim/nvim-lspconfig"
     use {
@@ -44,8 +45,12 @@ return require("packer").startup(function(use)
         requires = { { "nvim-lua/plenary.nvim" } }
     }
 
+    -- Used to preview plantuml files (.puml)
     use {
         "weirongxu/plantuml-previewer.vim",
         requires = { { "tyru/open-browser.vim" }, { "aklt/plantuml-syntax" } }
     }
+
+    -- Game to practice vim motions
+    use "ThePrimeagen/vim-be-good"
 end)
