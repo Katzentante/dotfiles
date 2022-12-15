@@ -102,3 +102,5 @@ fi
 
 alias config='/usr/bin/git --git-dir=/home/oskar/.dotfiles/ --work-tree=/home/oskar'
 alias tmux='TERM=xterm-256color tmux'
+alias dev='$HOME/dev/scripts/dev.sh'
+alias javarun="$HOME/dev/scripts/javarun.sh"
