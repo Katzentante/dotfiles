@@ -184,11 +184,15 @@ bindsym $mod+r mode "resize"
 
 # own stuff
 
+
+## start compositor
+exec picom
+
 ## start polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 ## Randomise background picture
-exec --no-startup-id bash $HOME/dev/scripts/change-wallpaper.sh 240
+exec --no-startup-id bash $HOME/dev/scripts/change-wallpaper.sh
 
 ## Removing window title bars
 default_border pixel 1
