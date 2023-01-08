@@ -186,3 +186,7 @@ bar {
 
 ## Randomise background picture
 exec --no-startup-id bash ~/dev/scripts/change-wallpaper.sh 240
+
+## Removing window title bars
+default_border pixel 1
+default_floating_border pixel 1
