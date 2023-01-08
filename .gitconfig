@@ -3,3 +3,5 @@
 [user]
 	name = Oskar Ohlenmacher
 	email = katzentante@protonmail.com
+[core]
+    editor = nvim
