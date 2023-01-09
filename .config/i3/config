@@ -193,6 +193,8 @@ bindsym $mod+r mode "resize"
 
 # own stuff
 
+## use config file for notification manager
+exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
 ## start compositor
 exec picom
@@ -204,5 +206,6 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id bash $HOME/dev/scripts/change-wallpaper.sh
 
 ## Removing window title bars
-default_border pixel 1
-default_floating_border pixel 1
+default_border pixel 0
+default_floating_border pixel 0
+
