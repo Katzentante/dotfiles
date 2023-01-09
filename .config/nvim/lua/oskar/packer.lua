@@ -53,4 +53,11 @@ return require("packer").startup(function(use)
 
     -- Game to practice vim motions
     use "ThePrimeagen/vim-be-good"
+
+    -- Harpoon to jump to different files quickly
+    use {
+        "ThePrimeagen/harpoon",
+        requires = { { "nvim-lua/plenary.nvim" } }
+    }
+
 end)

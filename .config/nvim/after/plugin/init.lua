@@ -1,5 +1,9 @@
---fugitive setup
---
+-- Harpoon keybindings
+
+-- space fm for file menu
+-- space f a for file Add
+-- > see remap.lua
+
 -- nvim surrounds setip
 require("nvim-surround").setup()
 
