@@ -7,7 +7,7 @@ MiscCursorBlinks=TRUE
 MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
 MiscDefaultGeometry=80x24
 MiscInheritGeometry=FALSE
-MiscMenubarDefault=TRUE
+MiscMenubarDefault=FALSE
 MiscMouseAutohide=TRUE
 MiscMouseWheelZoom=TRUE
 MiscToolbarDefault=FALSE
@@ -31,4 +31,5 @@ BackgroundDarkness=0.850000
 ColorBackground=#23b511c53c95
 RunCustomCommand=TRUE
 CustomCommand=/usr/bin/zsh
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
 

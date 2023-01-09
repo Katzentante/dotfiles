@@ -2,6 +2,6 @@
 
 while :
 do
-    feh --randomize --bg-scale ~/Pictures/Wallpapers/* 
-    sleep "$1"
+    feh --randomize --bg-fill ~/Pictures/Wallpapers/* 
+    sleep 300
 done &
